@@ -23,8 +23,9 @@ This is a boilerplate project for CraftCMS 4, with a focus on providing a develo
 1. Clone the repository: `git clone https://github.com/jorgeanzola/craft-4-boilerplate.git`
 2. Change to the project directory: `cd craft-4-boilerplate`
 3. Install dependencies: `make install`
-4. Start the DDEV environment: `make start`
-5. Access the site at `http://craft-4-boilerplate.ddev.site`
+4. Once prompted, type "vite" and enter (I'll find a nicer way to do this)
+5. Start the DDEV environment: `make start`
+6. Access the site at `http://craft-4-boilerplate.ddev.site`
 
 ## Development
 

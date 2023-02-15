@@ -10,7 +10,7 @@ WHITE		:= $(shell tput -Txterm setaf 7)
 RESET		:= $(shell tput -Txterm sgr0)
 
 
-install: ddev-config create-env-file composer-install craft-install setup-security-key launch
+install: ddev-config create-env-file composer-install craft-install setup-security-key vite launch
 
 create-env-file:
 	@echo "${YELLOW}${DECORATOR}Creating a new .env file${DECORATOR}${RESET}"
@@ -52,3 +52,7 @@ craft-install:
 setup-security-key:
 	@echo "${YELLOW}${DECORATOR}Setting up the security key${DECORATOR}${RESET}"
 	@ddev craft setup/security-key 
+
+vite:
+	@echo "${YELLOW}${DECORATOR}Installing Vite${DECORATOR}${RESET}"
+	@ddev craft plugin/install vite

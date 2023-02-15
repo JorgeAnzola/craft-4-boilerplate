@@ -1,0 +1,26 @@
+dateModified: 1676225120
+email:
+  fromEmail: jorgeanzola@gmail.com
+  fromName: 'Craft Boilerplate'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3e035f01-35ee-4470-bb4a-284e1eedbb1e: Common # Common
+    59c0ba4b-eb41-4f12-8dc4-982a569daf61: 'Craft Boilerplate' # Craft Boilerplate
+plugins:
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Boilerplate'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

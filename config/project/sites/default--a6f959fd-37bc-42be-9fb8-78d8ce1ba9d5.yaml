@@ -2,8 +2,8 @@ baseUrl: $PRIMARY_SITE_URL
 enabled: true
 handle: default
 hasUrls: true
-language: es
-name: 'Marlyn y Jorge'
+language: en
+name: 'CraftCMS 4 Boilerplate'
 primary: true
 siteGroup: 59c0ba4b-eb41-4f12-8dc4-982a569daf61 # Craft Boilerplate
 sortOrder: 1

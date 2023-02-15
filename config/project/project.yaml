@@ -1,4 +1,4 @@
-dateModified: 1676225120
+dateModified: 1676466428
 email:
   fromEmail: jorgeanzola@gmail.com
   fromName: 'Craft Boilerplate'
@@ -7,6 +7,7 @@ meta:
   __names__:
     3e035f01-35ee-4470-bb4a-284e1eedbb1e: Common # Common
     59c0ba4b-eb41-4f12-8dc4-982a569daf61: 'Craft Boilerplate' # Craft Boilerplate
+    a6f959fd-37bc-42be-9fb8-78d8ce1ba9d5: 'CraftCMS 4 Boilerplate' # CraftCMS 4 Boilerplate
 plugins:
   vite:
     edition: standard
